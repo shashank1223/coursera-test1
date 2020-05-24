@@ -1,0 +1,92 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assignment Solution for Module 2</title>
+<link rel="stylesheet" href="css/mystyle.css">
+<style>
+*
+{
+  box-sizing: border-box;
+}
+#container
+{
+position: relative;
+}
+.row
+{
+	width:100%;
+}
+@media (min-width: 992px)
+{
+.col-lg-4
+{
+float: left;
+}
+.col-lg-4
+{
+width: 33.33%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+.col-md-6, .col-md-12 
+{
+float: left;
+}
+.col-md-6
+{
+width: 50%;
+}
+.col-md-12
+{
+width: 100%;	
+}
+}
+@media (max-width: 767px)
+{
+body { 
+	font-size: 120%;
+}
+.menu {
+	text-align: center;
+}
+}
+</style>
+</head>	
+<body>
+	<div class="menu">Our Menu</div>
+	<div class="row">
+			<div class="col-lg-4 col-md-6">
+				<div  class="divi">
+				<div id="item" class="itemchicken">
+				Chicken
+				</div>
+					<div id="content">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod, odio vel convallis rutrum, ante augue ultricies lectus, a fringilla est ex non nisi. Suspendisse potenti. In nec gravida felis, non tristique risus. Suspendisse et nisi ut tortor fermentum tempus. Etiam et varius libero.
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div id="container" class="divi">
+				<div id="item" class="itembeef">
+				Beef
+				</div>
+					<div id="content">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod, odio vel convallis rutrum, ante augue ultricies lectus, a fringilla est ex non nisi. Suspendisse potenti. In nec gravida felis, non tristique risus. Suspendisse et nisi ut tortor fermentum tempus. Etiam et varius libero.
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-12">
+				<div id="container" class="divi">
+				<div id="item" class="itemshushi">
+				Sushi
+				</div>
+					<div id="content">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod, odio vel convallis rutrum, ante augue ultricies lectus, a fringilla est ex non nisi. Suspendisse potenti. In nec gravida felis, non tristique risus. Suspendisse et nisi ut tortor fermentum tempus. Etiam et varius libero.
+					</div>
+				</div>
+			</div>
+	</div>
+</body>
+</html>
